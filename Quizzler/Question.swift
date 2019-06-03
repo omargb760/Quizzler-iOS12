@@ -12,7 +12,7 @@ class Question{
     let questionText : String
     let answer : Bool
     
-    init(text :string, correctAnswer : Bool) {
+    init(text :String, correctAnswer : Bool) {
         questionText = text
         answer = correctAnswer
     }
